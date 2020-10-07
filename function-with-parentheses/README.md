@@ -1,3 +1,10 @@
+# Overview
+
+- **[Return values](#return-values)**
+  - [Function implementation](#function-implementation)
+  - [Function execution](#function-execution)
+- **[Let's go there!](#Let's-go-there!)**
+
 # Return values
 
 First of all, all the "actions" in JavaScript have a return type. It could be, a function declaration, a variable declaration, an assignment, etc...
@@ -22,7 +29,7 @@ As you can see, the function declaration returned `undefined`, but ok. The impor
 
 Pay attention to these two cases:
 
-### **1. Function implementation**
+### **Function implementation**
 
 <p align="center">
   <img src="./.github/images/getting-function-implementation.png" alt="Getting function implementation" />
@@ -45,7 +52,7 @@ const anotherFunction = sayHello;
 anotherFunction();
 ```
 
-### **2. Function execution**
+### **Function execution**
 
 <p align="center">
   <img src="./.github/images/getting-function-execution.png" alt="Getting function execution" />
