@@ -16,4 +16,8 @@ We can not see the reserved word `return` inside the function's body, but there 
 
 Let's check this on [DevTools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools):
 
+<div style="text-align: center">
 
+![Function declaration returning undefined](./.github/images/function-declaration.png)
+
+</div>
