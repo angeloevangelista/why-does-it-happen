@@ -21,3 +21,21 @@ Let's check this on [DevTools](https://developer.mozilla.org/en-US/docs/Learn/Co
 ![Function declaration returning undefined](./.github/images/function-declaration.png)
 
 </div>
+
+As you can see, the function declaration returned `undefined`, but ok. The important detail is now.
+
+Pay attention to these two cases:
+
+### **1. Function implementation**
+
+<div style="text-align: center">
+
+![Getting function implementation](./.github/images/getting-function-implementation.png)
+
+</div>
+
+### **2. Function execution**
+
+<div style="text-align: center">
+  <img style="border-radius: 10px;" src="./.github/images/getting-function-execution.png" alt="Getting function execution">
+</div>
