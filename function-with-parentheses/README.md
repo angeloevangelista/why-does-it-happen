@@ -14,11 +14,9 @@ We can not see the reserved word `return` inside the function's body, but there 
 
 Let's check this on [DevTools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools):
 
-<div style="text-align: center">
-
-![Function declaration returning undefined](./.github/images/function-declaration.png)
-
-</div>
+<p align="center">
+  <img src="./.github/images/function-declaration.png" alt="Function declaration returning undefined" />
+</p>
 
 As you can see, the function declaration returned `undefined`, but ok. The important detail is now.
 
@@ -26,11 +24,9 @@ Pay attention to these two cases:
 
 ### **1. Function implementation**
 
-<div style="text-align: center">
-
-![Getting function implementation](./.github/images/getting-function-implementation.png)
-
-</div>
+<p align="center">
+  <img src="./.github/images/getting-function-implementation.png" alt="Getting function implementation" />
+</p>
 
 Observe the return type, it's a function, it happens because the content of `sayHello` is a function. It's similar to use an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) instead, the return will be "the same" (try it later in you browser):
 
@@ -51,11 +47,9 @@ anotherFunction();
 
 ### **2. Function execution**
 
-<div style="text-align: center">
-
-![Getting function execution](./.github/images/getting-function-execution.png)
-
-</div>
+<p align="center">
+  <img src="./.github/images/getting-function-execution.png" alt="Getting function execution" />
+</p>
 
 Let's see the difference from the other case. Now we have an execution, that means we are running each line of the function, in this case, a simple `console.log`.
 
@@ -65,11 +59,9 @@ This is the return of the function... Yes, we don't have the keyword 'return' th
 
 **Keep in your mind**: Differently of the first case, if we assign the execution of a function who returns `undefined` to a variable, this variable will receive `undefined`:
 
-<div style="text-align: center">
-
-![Assigning return of the function to variable](./.github/images/assigning-return-of-function-to-variable.png)
-
-</div>
+<p align="center">
+  <img src="./.github/images/assigning-return-of-function-to-variable.png" alt="Assigning return of the function to variable" />
+</p>
 
 # Let's go there!
 
@@ -92,7 +84,7 @@ We have two function which do the same thing, with different variables and diffe
 ```javascript
 function run1() {
   counter1 += 1;
-  testdiv1.innerHTML = `Running...${counter1}`;
+  testp1.innerHTML = `Running...${counter1}`;
 }
 ```
 
@@ -112,11 +104,9 @@ The difference between passing the content or passing the returned value is the 
 
 In the second variable/function we are assign the result of execution, who is `undefined`, to be executed by intervals of 1000 milliseconds. And that is why only the first button works as expected.
 
-<div style="text-align: center">
-
-![Showing thi difference between the counters](./.github/images/executing-the-app.png)
-
-</div>
+<p align="center">
+  <img src="./.github/images/executing-the-app.png" alt="Showing thi difference between the counters" />
+</p>
 
 I hope this has helped you with your doubt, but fell free to make a pull request to improve the content or to make another topic on this repo. And issues are also allowed here 😉.
 
