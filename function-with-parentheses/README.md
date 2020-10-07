@@ -34,8 +34,27 @@ Pay attention to these two cases:
 
 </div>
 
+Observe the return type, it's a function, it happens because the content of `sayHello` is a function. It's similar to use an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) instead, the return will be "the same" (try it later in you browser):
+
+```javascript
+() => {
+  console.log('Hello!');
+};
+```
+
+**Keep in your mind**: If I assign to another variable the content of `sayHello`, this variable will also be a function. Something like this:
+
+```javascript
+const anotherFunction = sayHello;
+
+// now I am able to call:
+anotherFunction();
+```
+
 ### **2. Function execution**
 
 <div style="text-align: center">
-  <img style="border-radius: 10px;" src="./.github/images/getting-function-execution.png" alt="Getting function execution">
+
+![Getting function execution](./.github/images/getting-function-execution.png)
+
 </div>
